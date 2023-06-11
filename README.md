@@ -7,7 +7,7 @@
 
 ## Demo
 
-[Insert gif or link to demo](https://threaded-ecommerce.netlify.app/)
+[Demo Link](https://threaded-ecommerce.netlify.app/)
 
 
 ## Screenshot
