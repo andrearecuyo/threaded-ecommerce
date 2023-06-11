@@ -1,0 +1,27 @@
+.benefits ul{
+  background: #F2F2F2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0px 40px;
+  justify-content: space-between;
+}
+
+.benefits li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.benefits .icon {
+  color: #000000;
+  font-size: 30px;
+}

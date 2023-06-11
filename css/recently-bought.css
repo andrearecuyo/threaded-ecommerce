@@ -1,0 +1,90 @@
+.recently-bought {
+  display: flex;
+  justify-content: center;
+}
+
+.recently {
+  margin: 0;
+  padding: 30px 40px;
+  width: 100%;
+}
+
+.recently h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  padding-bottom: 40px;
+}
+
+.recently p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 40px;
+}
+
+.recently-gallery {
+ display: flex;
+ justify-content: center;
+ gap:40px;
+ flex-wrap: wrap;
+ padding-bottom: 40px;
+}
+.recently-items {
+  width: 15%;
+  min-width: 100px;
+}
+.recently-items a {
+  text-decoration: unset;
+}
+
+.recently-items img {
+  width: 100%;
+}
+
+.recently-items .description{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  min-height: 50px;
+  height: auto;
+}
+
+.recently-items .total {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.recently-discounted-items {
+  display: flex;
+  gap: 10px;
+}
+
+.recently-items .discounted-total {
+  color: #C1272D;
+}
+
+.recently-items .old-total {
+  text-decoration:line-through;
+}
+

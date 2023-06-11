@@ -1,0 +1,71 @@
+
+.sitewide-deals {
+  background: #FFFFFF;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0px 40px;
+  justify-content: space-between;
+}
+.sitewide-deals ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.sitewide-deals .top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  justify-content: center;
+}
+.sitewide-deals h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.sitewide-deals h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.sitewide-deals p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.sitewide-deals-button {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  background: #000000;
+  width: 50%;
+}
+
+.sitewide-deals-button:hover {
+  background: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.newsletter {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:30px;
+  padding: 0 30px;
+}
+
+.newsletter h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.newsletter .email-form {
+  display: flex;
+  padding: 20px 0;
+  height: 35px;
+}
+
+.email-form input {
+  flex: 1;
+  background: #F2F2F2;
+  border: 0;
+  width: 354px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.email-form input:focus{
+  outline: none;
+}
+
+.email-form input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #4D4D4D;
+  padding: 20px 10px;
+}
+
+.email-form-button {
+  margin: 0;
+  background: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  cursor: pointer;
+}
+
+.email-form-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email-form-button img{
+  width: 20px;
+  height: 20px;
+}

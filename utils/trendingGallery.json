@@ -1,0 +1,34 @@
+[
+  {
+    "image": "../assets/trending/trending-winter-fashion.png",
+    "description": "winter fashion"
+  },
+  {
+    "image": "../assets/trending/trending-boots.png",
+    "description": "boots"
+  },
+  {
+    "image": "../assets/trending/trending-night-out.png",
+    "description": "night out"
+  },
+  {
+    "image": "../assets/trending/trending-holidays.png",
+    "description": "holidays"
+  },
+  {
+    "image": "../assets/trending/trending-outerwear.png",
+    "description": "outerwear"
+  },
+  {
+    "image": "../assets/trending/trending-white-dresses.png",
+    "description": "white dresses"
+  },
+  {
+    "image": "../assets/trending/trending-sweaters.png",
+    "description": "sweaters"
+  },
+  {
+    "image": "../assets/trending/trending-party.png",
+    "description": "party"
+  }
+]

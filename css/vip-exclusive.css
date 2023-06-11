@@ -1,0 +1,53 @@
+.vip-exclusive {
+  background-image:  url("../assets/vip-exclusive/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0px 40px;
+  justify-content: space-evenly;
+}
+
+.vip-exclusive h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.vip-exclusive h2 {
+  width: 354px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+}
+
+.vip-exclusive-button {
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.vip-exclusive-button:hover {
+  background: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+}

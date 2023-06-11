@@ -1,0 +1,85 @@
+.instagram {
+  background: #F2F2F2;
+  padding-bottom: 40px;
+}
+
+.instagram-post {
+  margin: 0;
+  padding: 30px 40px;
+  width: 100%;
+}
+
+.instagram-post h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.instagram-post p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.instagram-post-gallery {
+ display: flex;
+ justify-content: center;
+ gap:40px;
+ flex-wrap: wrap;
+ padding-bottom: 40px;
+}
+.instagram-post-gallery-items {
+  width: 15%;
+  min-width: 100px;
+}
+.instagram-post-gallery-items a {
+  text-decoration: unset;
+}
+
+.instagram-post-gallery-items img {
+  width: 100%;
+  opacity:0.8;
+  transition: 1s ease;
+}
+
+.instagram-post-gallery-items img:hover {
+  opacity:1;
+  transition: 1s ease;
+}
+
+.instagram-post-button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.instagram-post-button {
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #000000;
+}
+
+.instagram-post-button:hover {
+  cursor: pointer;
+  color: #000000;
+  background: #FFFFFF;
+}

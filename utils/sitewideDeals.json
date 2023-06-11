@@ -1,0 +1,18 @@
+[
+  {
+    "discountFee": 5,
+    "discount": "on orders above $50"
+  },
+  {
+    "discountFee": 15,
+    "discount": "on orders above $75"
+  },
+  {
+    "discountFee": 20,
+    "discount": "on orders above $150"
+  },
+  {
+    "discountFee": 30,
+    "discount": "on orders above $200"
+  }
+]

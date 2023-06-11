@@ -1,0 +1,96 @@
+.trending-now {
+  display: flex;
+  justify-content: center;
+}
+
+.trending {
+  margin: 0;
+  padding: 30px 40px;
+  width: 80%;
+}
+
+.trending h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.trending p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.trending-gallery {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap:40px;
+ flex-wrap: wrap;
+}
+.trending-items {
+  width: 20%;
+  min-width: 100px;
+}
+.trending-items a {
+  text-decoration: unset;
+}
+
+.trending-items img {
+  width: 100%;
+  opacity:0.8;
+  transition: 1s ease;
+}
+
+.trending-items img:hover {
+  opacity:1;
+  transition: 1s ease;
+}
+
+.trending-items .description{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  line-height: 42px;
+}
+
+.trending-hashtags {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding:20px;
+}
+
+.trending-hashtags-button {
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+.trending-hashtags-button:hover {
+  color: #FFFFFF;
+  background: #000000;
+}

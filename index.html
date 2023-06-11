@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>THREADED</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Threaded Ecommerce Website" />
+  <meta name="author" content="Ehrlich">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/nav.css" />
+  <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+  <link rel="stylesheet" type="text/css" href="css/benefits.css" />
+  <link rel="stylesheet" type="text/css" href="css/hero.css" />
+  <link rel="stylesheet" type="text/css" href="css/sitewide-deals.css" />
+  <link rel="stylesheet" type="text/css" href="css/vip-exclusive.css" />
+  <link rel="stylesheet" type="text/css" href="css/trending.css" />
+  <link rel="stylesheet" type="text/css" href="css/new-in.css" />
+  <link rel="stylesheet" type="text/css" href="css/recently-bought.css" />
+  <link rel="stylesheet" type="text/css" href="css/instagram-post.css" />
+  <link rel="stylesheet" type="text/css" href="css/newsletter.css" />
+  <link rel="stylesheet" type="text/css" href="css/footer.css" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <nav class="navigation">
+    <div class="left-nav">
+      <ul id="navigation"></ul>
+    </div>
+    <div class="logo">
+      <a href="#">
+        <img src="assets/Logo.svg" alt="Threaded Logo" />
+      </a>
+    </div>
+    <div class="right-nav">
+      <ul id="navigation-icons"></ul>
+      <div class="dropdown">
+        <div class="select-box">
+          <div class="options-container">
+            <div class="option">
+              <input type="radio" class="radio" id="currency-usd" name="currency-usd" />
+              <label for="currency-usd">
+                <img src="assets/icons/us-flag.svg" alt="us-flag-currency">USD $
+              </label>
+            </div>
+            <div class="option">
+              <input type="radio" class="radio" id="currency-php" name="currency-php" />
+              <label for="currency-php">
+                <img src="assets/icons/philippines-flag.svg" alt="ph-flag-currency">PHP ₱
+              </label>
+            </div>
+          </div>
+          <div class="selected">
+            <img src="assets/icons/us-flag.svg" alt="us-flag-currency">
+            <label for="currency-usd">USD $</label>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="benefits">
+    <ul id="benefits"></ul>
+  </section>
+
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="slideshow-container">
+        <div class="slide">
+          <div class="slide-image">
+            <div class="hero-women">
+              <div class="hero-text">
+                <img src="assets/hero/hero-text.svg" alt="Black Friday 70% OFF" />
+                <button type="button" class="hero-button" onclick="location.href='index.html'">SHOP NOW</button>
+              </div>
+            </div>
+            <div class="hero-confetti"></div>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <div class="slide-image">
+            <div class="second-slide hero-women">
+              <div class="hero-text">
+                <img src="assets/hero/hero-text.svg" alt="Black Friday 70% OFF" />
+                <button type="button" class="hero-button" onclick="location.href='index.html'">SHOP NOW</button>
+              </div>
+            </div>
+            <div class="hero-confetti"></div>
+          </div>
+        </div>
+          
+        <a class="prev" onclick="nextSlide(-1)">
+          <img src="assets/icons/ant-design_left-outlined.svg" alt="">
+        </a>
+        <a class="next" onclick="nextSlide(1)">
+          <img src="assets/icons/ant-design_right-outlined.svg" alt="">
+        </a>
+      </div>
+      <div class="slider-dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+      </div>
+    </div>
+  </section> 
+
+  <section class="sitewide-deals">
+    <ul id="sitewide-deals"></ul>
+    <button type="button" class="sitewide-deals-button" onclick="location.href='index.html'">check out all site-wide deals</button>
+  </section>
+
+  <section class="vip-exclusive">
+    <h1>black friday exclusive</h1>
+    <h2>free shipping on all orders for VIP 2 and up!</h2>
+    <button type="button" class="vip-exclusive-button" onclick="location.href='index.html'">shop now</button>
+  </section>
+
+  <section class="trending-now">
+    <div class="trending">
+      <h1>now trending</h1>
+      <p>See what everyone’s wearing right now</p>
+      <div id="trending-gallery" class="trending-gallery"></div>
+      <div id="trending-hashtags" class="trending-hashtags"></div>
+    </div>
+  </section>
+
+  <section class="new-in">
+    <div class="new-in-bg">
+      <div class="new-in-text">
+        <h1>new <br /> arrivals</h1>
+        <p>Get ready for the holidays with us!</p>
+        <button type="button" class="new-in-button" onclick="location.href='index.html'">shop now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="recently-bought">
+    <div class="recently">
+      <h1>recently bought</h1>
+      <div id="recently-bought-gallery" class="recently-gallery"></div>
+    </div>
+  </section>
+
+  <section class="instagram">
+    <div class="instagram-post">
+      <h1>your next inspo</h1>
+      <p>Checkout who’s wearing what by using #THREADEDInspo on Instagram</p>
+      <div id="instagram-post-gallery" class="instagram-post-gallery"></div>
+      <div class="instagram-post-button-container">
+        <button type="button" class="instagram-post-button" onclick="location.href='index.html'">view all posts</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <h1>sign up for exclusive deals and updates</h1>
+    <div class="email-form">
+      <input type="email" placeholder="Your Email Address">
+      <button type="submit" class="email-form-button" onclick="location.href='index.html'">
+        <img src="assets/icons/ant-design_right-outlined-black.svg" alt="Right Outlined Arrow Icon">
+      </button>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer">
+      <div class="footer-menu">
+        <div class="footer-menu-container">
+          <div class="footer-label">company info</div>
+          <ul id="footer-company-info" class="footer-company-info"> </ul>
+        </div>
+    
+        <div class="footer-menu-container">
+          <div class="footer-label">help & support</div>
+          <ul id="footer-help" class="help"></ul>
+        </div>
+    
+        <div class="footer-menu-container">
+          <div class="footer-label">customer care</div>
+          <ul id="footer-customer-care" class="customer-care"></ul>
+        </div>
+      </div>
+  
+      <div class="footer-icon">
+        <div class="footer-icon-container">
+          <div class="footer-label">follow us</div>
+          <ul id="footer-social-media" class="footer-social-media"></ul>
+        </div>
+  
+        <div class="footer-icon-container">
+          <div class="footer-label">we accept</div>
+          <ul id="footer-payment" class="footer-payment"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <small>©2021 THREADED All Rights Reserved.</small>
+      <a href="#">
+        <img src="assets/Logo.svg" alt="Threaded Logo" />
+      </a>
+    </div>
+  </footer>
+  
+  <script src="js/app.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="js/hero-slider.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html> 

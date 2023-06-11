@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "bx:crown",
+    "benefit": "Exclusive Deals for VIP 2 and up!"
+  },
+  {
+    "icon": "bx-star",
+    "benefit": "Weekly New Arrivals"
+  },
+  {
+    "icon": "mdi:truck-delivery-outline",
+    "benefit": "Free Shipping On Orders Over $100"
+  },
+  {
+    "icon": "bx-map-pin",
+    "benefit": "Track Your Order"
+  },
+  {
+    "icon": "bx-purchase-tag",
+    "benefit": "10% Off On Your First Order!"
+  }
+]
