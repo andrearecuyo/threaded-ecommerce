@@ -7,7 +7,7 @@
 
 ## Demo
 
-Insert gif or link to demo
+[Demo Link](https://threaded-ecommerce.netlify.app/)
 
 
 ## Screenshot
@@ -20,7 +20,7 @@ Insert gif or link to demo
 Install Live Server v5.7.9 by Ritwick Dey to easily start the project.
 
 ```bash
-  git clone 
+  git clone https://github.com/andrearecuyo/threaded-ecommerce.git
   cd threaded-ecommerce
   Click to Go Live from the status bar to turn the server on.
   OR
