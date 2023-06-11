@@ -62,11 +62,13 @@
   font-size: 36px;
   line-height: 44px;
   cursor: pointer;
+  border: 0;
 }
 
 .hero-button:hover {
   cursor: pointer;
-  background: transparent;
+  background: black;
+  color: #FFFFFF;
   transition: 0.2s ease-in-out;
 }
 
