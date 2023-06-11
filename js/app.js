@@ -1,8 +1,12 @@
 // Fetch navigation items from navigation.json File
 function fetchNavigationItems() {
+  // initiates a network request using the Fetch API to retrieve the JSON data from the specified URL
   fetch('../utils/navigation.json')
+  //parse the response body as JSON
     .then((res) => res.json())
+    //receives the parsed JSON data as the data parameter and executes a callback function to process the data
     .then((data) => {
+      //to accumulate the HTML markup
       let output = "";
       data.forEach((nav) => {
         output += 
@@ -10,6 +14,7 @@ function fetchNavigationItems() {
           ${nav.item}
         </li>`
       })
+      //updates the content of the element 
       document.getElementById('navigation').innerHTML = output;
     })
     .catch((error) => {
